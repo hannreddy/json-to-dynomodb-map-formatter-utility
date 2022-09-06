@@ -10,7 +10,8 @@ https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynam
 
 ## Code for calling the utility class
 ```
-from json_to_ddb_formatter import json_to_ddb_formatter
-test = json_to_ddb_formatter(a)
-print(test.format_data())
+  from json_to_ddb_formatter import json_to_ddb_formatter
+
+  test = json_to_ddb_formatter(a)
+  print(test.format_data())
 ```
