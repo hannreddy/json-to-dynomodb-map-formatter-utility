@@ -6,8 +6,13 @@ __email__ = "hann.reddy@gmail.com"
 
 class json_to_ddb_formatter:
     """
+    DynamoDB needs extra formatting to JSON data to be stored in a Attribute of type MAP.
+    So formatting to DynamoDB accepted format and also reformatting DynamoDB MAP data to JSON data is a regular activity.
+
+    I have handled both the formattings. Utility to convert DynamoDB MAP data to JSON is available at:
+    https://github.com/hannreddy/Dynamodb-map-to-JSON-formatter
+
     This utility class is used to convert any json payload into dynamodb accepted map data format.
-    Apply utility should be applied for each Attribute value. As at main attributes level this formatting is not needed.
 
     Please refer to AWS documentation for understanding the dynamodb accepted format.
     https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client
