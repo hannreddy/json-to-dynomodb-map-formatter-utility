@@ -1,3 +1,9 @@
+__author__ = "Hanumanth Reddy Aredla"
+__version__ = "1.0"
+__maintainer__ = "Hanumanth Reddy Aredla"
+__email__ = "hann.reddy@gmail.com"
+
+
 class json_to_ddb_formatter:
     """
     This utility class is used to convert any json payload into dynamodb accepted map data format.
