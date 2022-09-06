@@ -8,3 +8,9 @@ I have written a utility to do this conversion, you can use this to do the conve
 Please refer to the AWS documentation for understanding the conversion format.
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client
 
+## Code for calling the utility class
+```
+from json_to_ddb_formatter import json_to_ddb_formatter
+test = json_to_ddb_formatter(a)
+print(test.format_data())
+```
